@@ -39,6 +39,29 @@ Počítačová zostava s výkonnou grafickou kartou, kvalitná hĺbková kamera,
 riadiaci systém, existujúci riadiaci systém a existujúci model CNC. HMI pracovisko pre
 rozpoznávanie gest, tváre, hlasových povelov pomocou hlbokých neurónových sietí.
 
+#### Rozpoznávanie hlasových povelov pomocou hlbokých neurónových sietí.
+Rozpoznávanie hlasových povelov predstavuje jednu z praktických aplikácií spracovania rečového signálu a metód umelej inteligencie. 
+Cieľom je automaticky identifikovať krátke hovorené povely, napríklad „štart“, „stop“, „zapni“ alebo „dopredu“, a zaradiť ich do vopred definovaných tried. 
+Takéto systémy nachádzajú uplatnenie pri hlasovom ovládaní zariadení, robotov, inteligentných domácností alebo pri interakcii človeka so strojom (HMI).
+![princip hlas povely](image/hlasove_povely_princip.png)
+Obr.1 Principiálna schéma rozpoznávania hlasových povelov
+
+Moderné riešenia využívajú najmä hlboké neurónové siete, ktoré dokážu z audio signálu automaticky extrahovať charakteristické príznaky a následne vykonať klasifikáciu povelu. 
+Vstupný zvukový signál sa môže spracovávať priamo vo formáte RAW signálu alebo sa najskôr transformuje do vhodnej časovo-frekvenčnej reprezentácie, napríklad Mel-spektrogramu.
+![ukazka_spectrogram](image/right.png)
+Obr.2 Ukážka RAW signálu a spektrogramu hlasového povelu „right“
+
+Na klasifikáciu sa následne používajú napríklad konvolučné neurónové siete (CNN), rekurentné siete ako LSTM a GRU, kombinované modely napr. CNN+LSTM  alebo modernejšie architektúry založené na mechanizme attention.
+![ukazka_1DCNN](image/hlasove_povely_1DCNN.png)
+Obr.3 Príklad rozpoznávania hlasového povelu pomocou RAW signálu a CNN s 1D konvolúciou
+
+Úlohou je vytvoriť a overiť rôzne architektúry hlbokých neurónových sietí a ich schopnosť spoľahlivo rozpoznávať vybranú množinu hlasových povelov a vyhodnotiť ich úspešnosť a iných klasifikačných metrík na testovacích zvukových záznamoch.
+
+Návod na trénovanie a testovanie vybraných architektúr HNS (RAW+1D-CNN, RAW+CNN-LSTM, SPECT+CNN)
+
+[Návod_Hlasové_povely](document/guide_hlas_povely.pdf)
+
+
 ### Pracovisko 3.
 Počítačová zostava s výkonnou grafickou kartou, kvalitná hĺbková kamera, Nvidia Jetson
 (Edge zariadenie), priemyselný riadiaci systém, existujúci robot (UR). Pracovisko pre detekciu
