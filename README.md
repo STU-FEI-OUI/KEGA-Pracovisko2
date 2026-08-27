@@ -61,6 +61,36 @@ Návod na trénovanie a testovanie vybraných architektúr HNS (RAW+1D-CNN, RAW+
 
 [Návod_Hlasové_povely](document/guide_hlas_povely.pdf)
 
+#### Rozpoznávanie správne nasadeného rúška pomocou hlbokých neurónových sietí.
+Rozpoznávanie správne nasadeného ochranného rúška predstavuje jednu z praktických úloh počítačového videnia, pri ktorej je možné využiť metódy hlbokého učenia. 
+Cieľom je na základe obrazu alebo videozáznamu automaticky detegovať osoby a následne určiť, či majú rúško nasadené správne, nesprávne alebo ho nemajú vôbec. 
+![princip mask detect](image/mask_recognition_princip.png)
+Obr.4 Principiálna schéma rozpoznávania správneho nasadenia rúška
+
+Na riešenie tejto úlohy sa využívajú najmä konvolučné neurónové siete (CNN) a moderné modely na detekciu objektov, 
+napríklad rodina YOLO, ktoré umožňujú lokalizovať tvár alebo osobu v obraze a zároveň vykonať klasifikáciu spôsobu nasadenia rúška.
+
+#### Rozpoznávanie statických gest ruky pomocou hlbokých neurónových sietí.
+Rozpoznávanie gest ruky predstavuje významnú oblasť počítačového videnia, ktorá umožňuje prirodzenú a bezkontaktnú komunikáciu človeka s počítačom, robotom alebo iným technickým zariadením. 
+Uplatnenie nachádza napríklad pri ovládaní robotických systémov, v inteligentných domácnostiach, automobiloch alebo pri tvorbe používateľských rozhraní. 
+Cieľom je na základe obrazu z kamery automaticky detegovať ruku a následne rozpoznať (klasifikovať) ukazované gesto. 
+![princip hand detect](image/gesta_recognition_princip.png)
+Obr.5 Principiálna schéma rozpoznávania statických gest ruky
+
+Na automatické rozpoznávanie gest je možné efektívne využiť konvolučné neurónové siete (CNN), ktoré dokážu priamo z obrazových dát extrahovať charakteristické príznaky a následne klasifikovať jednotlivé gestá. 
+Vstupný obraz získaný kamerou sa predspracuje, lokalizuje sa oblasť ruky a následne sa pomocou CNN priradí k jednej z definovaných tried gest.
+
+#### Rozpoznávanie gest a stavov tváre pomocou hlbokých neurónových sietí.
+Rozpoznávanie gest a stavov tváre predstavuje významnú oblasť počítačového videnia zameranú na automatickú analýzu vizuálnych prejavov človeka. 
+Okrem identifikácie osoby je možné z obrazu tváre určovať napríklad natočenie a polohu hlavy, prítomnosť okuliarov, otvorenie alebo zatvorenie očí a úst či základné emócie, ako sú úsmev, prekvapenie alebo smútok. 
+Takéto systémy nachádzajú uplatnenie pri interakcii človeka s počítačom a robotom, monitorovaní pozornosti vodiča, asistenčných systémoch alebo inteligentných používateľských rozhraniach. 
+ 
+![princip hlava detect](image/tvar_recognition_princip.png)
+Obr.6 Principiálna schéma rozpoznávania gest a stavov tváre
+
+Na riešenie týchto úloh je možné efektívne využiť konvolučné neurónové siete (CNN). 
+Po detekcii a lokalizácii tváre v obraze CNN automaticky extrahuje charakteristické vizuálne príznaky a na ich základe vykoná klasifikáciu požadovaného stavu alebo regresný odhad, napríklad uhlov natočenia hlavy. 
+
 
 ### Pracovisko 3.
 Počítačová zostava s výkonnou grafickou kartou, kvalitná hĺbková kamera, Nvidia Jetson
