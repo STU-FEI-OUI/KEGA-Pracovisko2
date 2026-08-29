@@ -51,6 +51,11 @@ Vstupný zvukový signál sa môže spracovávať priamo vo formáte RAW signál
 ![ukazka_spectrogram](image/right.png)
 Obr.2 Ukážka RAW signálu a spektrogramu hlasového povelu „right“
 
+##### Dataset hlasových povelov (wav formát):
+[Speech_commands_v0.02](https://www.kaggle.com/datasets/mok0na/speech-commands-v002)
+
+
+##### Použité modely:
 Na klasifikáciu sa následne používajú napríklad konvolučné neurónové siete (CNN), rekurentné siete ako LSTM a GRU, kombinované modely napr. CNN+LSTM  alebo modernejšie architektúry založené na mechanizme attention.
 ![ukazka_1DCNN](image/hlasove_povely_1DCNN.png)
 Obr.3 Príklad rozpoznávania hlasového povelu pomocou RAW signálu a CNN s 1D konvolúciou
