@@ -47,7 +47,7 @@ Takéto systémy nachádzajú uplatnenie pri hlasovom ovládaní zariadení, rob
 Obr.1 Principiálna schéma rozpoznávania hlasových povelov
 
 Moderné riešenia využívajú najmä hlboké neurónové siete, ktoré dokážu z audio signálu automaticky extrahovať charakteristické príznaky a následne vykonať klasifikáciu povelu. 
-Vstupný zvukový signál sa môže spracovávať priamo vo formáte RAW signálu alebo sa najskôr transformuje do vhodnej časovo-frekvenčnej reprezentácie, napríklad Mel-spektrogramu.
+Vstupný zvukový signál sa môže spracovávať priamo vo formáte RAW signálu alebo sa najskôr transformuje do vhodnej časovo-frekvenčnej reprezentácie, napríklad Mel-spektrogramu. [Spektrogram_postup](document/spektogram.pdf)
 ![ukazka_spectrogram](image/right.png)
 Obr.2 Ukážka RAW signálu a spektrogramu hlasového povelu „right“
 
@@ -60,6 +60,13 @@ Obr.3 Príklad rozpoznávania hlasového povelu pomocou RAW signálu a CNN s 1D 
 Návod na trénovanie a testovanie vybraných architektúr HNS (RAW+1D-CNN, RAW+CNN-LSTM, SPECT+CNN)
 
 [Návod_Hlasové_povely](document/guide_hlas_povely.pdf)
+
+Dosiahnuté výsledky:
+- G. Bogi, Rozpoznávanie hlasových povelov pomocou konvolučných sietí, DP, FEI STU, 2021, [Vysledky_DP_Bogi](document/vysledky_dp_bogi.pdf)
+- Berki, Lúčny, Rozpoznávanie hlasových povelov, Projekt HNS, 2023, [Vysledky_HNS_Projekt_Berki_Lúčny](document/Klasifikacia_hlasovych_povelov_Berki.pdf)
+- Stoliar, Lobach, Rozpoznávanie hlasových povelov, Projekt HNS, 2025, [Vysledky_HNS_Projekt_Stoliar_Lobach](document/Klasifikacia_hlasovych_povelov_Stoliar.pdf)
+
+
 
 #### Rozpoznávanie správne nasadeného rúška pomocou hlbokých neurónových sietí.
 Rozpoznávanie správne nasadeného ochranného rúška predstavuje jednu z praktických úloh počítačového videnia, pri ktorej je možné využiť metódy hlbokého učenia. 
