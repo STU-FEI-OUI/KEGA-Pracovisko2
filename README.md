@@ -46,6 +46,14 @@ Dosiahnuté výsledky:
 - Berki, Lúčny, Rozpoznávanie hlasových povelov, Projekt HNS, 2023, [Vysledky_HNS_Projekt_Berki_Lúčny](document/Klasifikacia_hlasovych_povelov_Berki.pdf)
 - Stoliar, Lobach, Rozpoznávanie hlasových povelov, Projekt HNS, 2025, [Vysledky_HNS_Projekt_Stoliar_Lobach](document/Klasifikacia_hlasovych_povelov_Stoliar.pdf)
 
+Literatúra:
+- Rai, Sumedha, Tong Li, and Bella Lyu. "Keyword spotting--Detecting commands in speech using deep learning." arXiv preprint arXiv:2312.05640 (2023). [Porovnanie prístupov, CNN, LSTM a Attention mechanizmus](https://arxiv.org/abs/2312.05640)
+
+- Vujičić, Dejan, Đorđe Damnjanović, Dušan Marković, and Zoran Stamenković. 2025. "Deep Learning System for Speech Command Recognition" Electronics 14, no. 19: 3793. [Prístup CNN + spektrogram](https://doi.org/10.3390/electronics14193793)
+
+- Sørensen, P.M., Epp, B. & May, T. A depthwise separable convolutional neural network for keyword spotting on an embedded system. J AUDIO SPEECH MUSIC PROC. 2020, 10 (2020). [Prístup CNN + spektrogram](https://doi.org/10.1186/s13636-020-00176-2)
+
+- R. Tang and J. Lin, "Deep Residual Learning for Small-Footprint Keyword Spotting," 2018 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Calgary, AB, Canada, 2018, pp. 5484-5488. [Prístup CNN - Resnet](https://ieeexplore.ieee.org/document/8462688)
 
 
 ### Rozpoznávanie správne nasadeného rúška pomocou hlbokých neurónových sietí.
