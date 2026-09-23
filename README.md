@@ -65,6 +65,24 @@ Obr.4 Principiálna schéma rozpoznávania správneho nasadenia rúška
 Na riešenie tejto úlohy sa využívajú najmä konvolučné neurónové siete (CNN) a moderné modely na detekciu objektov, 
 napríklad rodina YOLO, ktoré umožňujú lokalizovať tvár alebo osobu v obraze a zároveň vykonať klasifikáciu spôsobu nasadenia rúška.
 
+
+#### Dataset správne a zle nasadených rúšok:
+[MaskedFace-Net_Dataset](https://github.com/cabani/MaskedFace-Net)
+
+
+Dosiahnuté výsledky:
+- Cauner, Horský, Rozpoznávanie správne nasadeného rúška, Projekt HNS, 2025, [Vysledky_HNS_Projekt_Cauner_Horský](document/HNS_Projekt_Cauner_Horsky.pdf)
+- Polc, Trepáčová, Rozpoznávanie správne nasadeného rúška, Projekt HNS, 2025, [Vysledky_HNS_Projekt_Polc_Trepacova](document/HNS_Projekt_Polc_Trepacova.pdf)
+
+
+Literatúra:
+- Adnane Cabani, Karim Hammoudi, Halim Benhabiles, and Mahmoud Melkemi, "MaskedFace-Net - A dataset of correctly/incorrectly masked face images in the context of COVID-19", Smart Health, ISSN 2352-6483, Elsevier, 2020, [Dataset_ruska](DOI:10.1016/j.smhl.2020.100144)
+
+- Karim Hammoudi, Adnane Cabani, Halim Benhabiles, and Mahmoud Melkemi,"Validating the correct wearing of protection mask by taking a selfie: design of a mobile application "CheckYourMask" to limit the spread of COVID-19", CMES-Computer Modeling in Engineering & Sciences, Vol.124, No.3, pp. 1049-1059, 2020, [Dataset_ruska + mobilna aplikacia](DOI:10.32604/cmes.2020.011663)
+
+- M. Vickya Ramadhan, Kahlil Muchtar, Yudha Nurdin, Maulisa Oktiana, Maya Fitria, Novi Maulina, Gregorius Natanael Elwirehardja, Bens Pardamean, Comparative analysis of deep learning models for detecting face mask, Procedia Computer Science, Volume 216, 2023, Pages 48-56, [Porovnanie CNN modelov](https://doi.org/10.1016/j.procs.2022.12.110).
+
+
 ### Rozpoznávanie statických gest ruky pomocou hlbokých neurónových sietí.
 Rozpoznávanie gest ruky predstavuje významnú oblasť počítačového videnia, ktorá umožňuje prirodzenú a bezkontaktnú komunikáciu človeka s počítačom, robotom alebo iným technickým zariadením. 
 Uplatnenie nachádza napríklad pri ovládaní robotických systémov, v inteligentných domácnostiach, automobiloch alebo pri tvorbe používateľských rozhraní. 
@@ -74,6 +92,7 @@ Obr.5 Principiálna schéma rozpoznávania statických gest ruky
 
 Na automatické rozpoznávanie gest je možné efektívne využiť konvolučné neurónové siete (CNN), ktoré dokážu priamo z obrazových dát extrahovať charakteristické príznaky a následne klasifikovať jednotlivé gestá. 
 Vstupný obraz získaný kamerou sa predspracuje, lokalizuje sa oblasť ruky a následne sa pomocou CNN priradí k jednej z definovaných tried gest.
+
 
 ### Rozpoznávanie gest a stavov tváre pomocou hlbokých neurónových sietí.
 Rozpoznávanie gest a stavov tváre predstavuje významnú oblasť počítačového videnia zameranú na automatickú analýzu vizuálnych prejavov človeka. 
