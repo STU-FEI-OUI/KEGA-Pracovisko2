@@ -95,10 +95,12 @@ Vstupný obraz získaný kamerou sa predspracuje, lokalizuje sa oblasť ruky a n
 
 #### Dataset - Gestá ASL:
 [Gesta_ASL1_Dataset](https://drive.google.com/drive/folders/1mpRo653YGYd4iuB-1t5sxog7rBnpaNob?usp=drive_link)
+
 [Gesta_ASL2_Dataset](https://drive.google.com/drive/folders/1UDefZEX1hMszVGkDu04sFOX3yu9altu9?usp=drive_link)
 
 
-Dosiahnuté výsledky:- Čopjan, Murínová, Rozpoznávanie gest ruky, Projekt HNS, 2025, [Vysledky_HNS_Projekt_Copjan_Murinova](document/HNS_Projekt_Gesta_ruky_Copjan_Murinova.pdf)
+Dosiahnuté výsledky:
+- Čopjan, Murínová, Rozpoznávanie gest ruky, Projekt HNS, 2025, [Vysledky_HNS_Projekt_Copjan_Murinova](document/HNS_Projekt_Gesta_ruky_Copjan_Murinova.pdf)
 - Čvirik, Kapusta, Rozpoznávanie gest ruky, Projekt HNS, 2025, [Vysledky_HNS_Projekt_Cvirik_Kapusta](document/HNS_Projekt_Gesta_ruky_Cvirik_Kapusta.pdf)
 - Hetnerovič, Kocúr, Rozpoznávanie gest ruky, Projekt HNS, 2025, [Vysledky_HNS_Projekt_Hetnerovic_Kocur](document/HNS_Projekt_Gesta_ruky_Hetnerovic_Kocur.pdf)
 - Kováč, Hrúz, Rozpoznávanie gest ruky, Projekt HNS, 2025, [Vysledky_HNS_Projekt_Kovac_Hruz](document/HNS_Projekt_Gesta_ruky_Kovac_Hruz.pdf)
