@@ -93,6 +93,22 @@ Obr.5 Principiálna schéma rozpoznávania statických gest ruky
 Na automatické rozpoznávanie gest je možné efektívne využiť konvolučné neurónové siete (CNN), ktoré dokážu priamo z obrazových dát extrahovať charakteristické príznaky a následne klasifikovať jednotlivé gestá. 
 Vstupný obraz získaný kamerou sa predspracuje, lokalizuje sa oblasť ruky a následne sa pomocou CNN priradí k jednej z definovaných tried gest.
 
+#### Dataset - Gestá ASL:
+[Gesta_ASL1_Dataset](https://drive.google.com/drive/folders/1mpRo653YGYd4iuB-1t5sxog7rBnpaNob?usp=drive_link)
+[Gesta_ASL2_Dataset](https://drive.google.com/drive/folders/1UDefZEX1hMszVGkDu04sFOX3yu9altu9?usp=drive_link)
+
+
+Dosiahnuté výsledky:- Čopjan, Murínová, Rozpoznávanie gest ruky, Projekt HNS, 2025, [Vysledky_HNS_Projekt_Copjan_Murinova](document/HNS_Projekt_Gesta_ruky_Copjan_Murinova.pdf)
+- Čvirik, Kapusta, Rozpoznávanie gest ruky, Projekt HNS, 2025, [Vysledky_HNS_Projekt_Cvirik_Kapusta](document/HNS_Projekt_Gesta_ruky_Cvirik_Kapusta.pdf)
+- Hetnerovič, Kocúr, Rozpoznávanie gest ruky, Projekt HNS, 2025, [Vysledky_HNS_Projekt_Hetnerovic_Kocur](document/HNS_Projekt_Gesta_ruky_Hetnerovic_Kocur.pdf)
+- Kováč, Hrúz, Rozpoznávanie gest ruky, Projekt HNS, 2025, [Vysledky_HNS_Projekt_Kovac_Hruz](document/HNS_Projekt_Gesta_ruky_Kovac_Hruz.pdf)
+
+Literatúra:
+- J. Goga and S. Kajan, "Hand gesture recognition using 3D sensors," 2017 International Symposium ELMAR, Zadar, Croatia, 2017, pp. 181-184, doi: 10.23919/ELMAR.2017.8124463. [Goga_Kajan_Gestures_recognition](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8124463)
+
+- S. Kajan and J. Goga, "Simulation-Based Model Control Using Static Hand Gestures in MATLAB." Information Technology Applications 11.2 (2022): 53-62. [Kajan_Goga_Static_Hand_Gestures](https://www.itajournal.com/index.php/ita/article/view/9/10)
+
+- Körösi, Ladislav, et al. "Servo system control using gestures." 2022 Cybernetics & Informatics (K&I). IEEE, 2022. [Korosi_Kajan_Servo_Control_Gestures](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9925973)
 
 ### Rozpoznávanie gest a stavov tváre pomocou hlbokých neurónových sietí.
 Rozpoznávanie gest a stavov tváre predstavuje významnú oblasť počítačového videnia zameranú na automatickú analýzu vizuálnych prejavov človeka. 
