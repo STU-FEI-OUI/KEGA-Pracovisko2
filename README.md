@@ -123,3 +123,17 @@ Obr.6 Principiálna schéma rozpoznávania gest a stavov tváre
 Na riešenie týchto úloh je možné efektívne využiť konvolučné neurónové siete (CNN). 
 Po detekcii a lokalizácii tváre v obraze CNN automaticky extrahuje charakteristické vizuálne príznaky a na ich základe vykoná klasifikáciu požadovaného stavu alebo regresný odhad, napríklad uhlov natočenia hlavy. 
 
+#### Dataset - Gestá Tváre:
+[Gesta_Tvare_Kinect_Dataset](https://drive.google.com/drive/folders/1YwOCplpXusQXr7d9wsS7kTb9TGJAt5fW?usp=drive_link)
+
+Dosiahnuté výsledky:
+- Kordoš, Havetta, Rozpoznávanie gest tváre, Projekt HNS, 2025, [Vysledky_HNS_Projekt_Kordos_Havetta](document/HNS_projekt_gesta_tvare_Kordos_Havetta.pdf)
+
+- Kuruc, Sýkorka, Rozpoznávanie gest tváre, Projekt HNS, 2025, [Vysledky_HNS_Projekt_Kuruc_Sykorka](document/HNS_projekt_gesta_tvare_Kuruc_Sykorka.pdf)
+
+Literatúra:
+- Li, S., Deng, W. (2022). Deep Facial Expression Recognition: A Survey. IEEE Transactions on Affective Computing. [Li_Deng_Facial_recognition](https://arxiv.org/pdf/1804.08348)
+
+- Perumalsamy, M. et al. (2026). Real-Time Based Student Attentiveness Geometry Group Detection System for Virtual Learning Environments. Procedia Computer Science, 283, 42–53. [Perumalsamy_Head_pose](https://www.sciencedirect.com/science/article/pii/S1877050926017242?via%3Dihub)
+
+
